@@ -61,7 +61,7 @@ Create a `.env` file in the root directory and add your API keys:
 HUGGINGFACEHUB_API_TOKEN="your_huggingface_token_here"
 PEXELS_API_KEY="your_pexels_key_here"
 ```
-*(Note: Do not commit the `.env` file to version control! It is included in `.gitignore` by default).*
+
 
 ---
 
