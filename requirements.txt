@@ -1,0 +1,8 @@
+streamlit
+python-pptx
+requests
+python-dotenv
+huggingface_hub
+Pillow
+mcp
+anyio

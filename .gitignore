@@ -1,0 +1,28 @@
+# Environment variables (API Keys, Tokens)
+.env
+.env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Output artifacts
+output/
+*.pptx
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
