@@ -22,7 +22,7 @@ st.markdown("""
 *, *::before, *::after { font-family: 'Inter', sans-serif !important; }
 
 .stApp {
-    background: linear-gradient(135deg, #0d0d1a 0%, #111128 40%, #0a1628 100%);
+    background: linear-gradient(135deg, #1a0f0d 0%, #28140a 40%, #2a0c0c 100%);
     min-height: 100vh;
 }
 #MainMenu, footer, header { visibility: hidden; }
@@ -32,15 +32,15 @@ st.markdown("""
 .hero { text-align: center; padding: 2.5rem 1rem 1.5rem; }
 .hero-badge {
     display: inline-block;
-    background: rgba(102,126,234,0.15);
-    border: 1px solid rgba(102,126,234,0.35);
-    color: #8ba4f9; font-size: 0.78rem; font-weight: 600;
+    background: rgba(255, 138, 0, 0.15);
+    border: 1px solid rgba(255, 138, 0, 0.35);
+    color: #ffad66; font-size: 0.78rem; font-weight: 600;
     letter-spacing: 0.12em; text-transform: uppercase;
     padding: 6px 18px; border-radius: 99px; margin-bottom: 1.2rem;
 }
 .hero h1 {
     font-size: 3.2rem; font-weight: 800;
-    background: linear-gradient(90deg, #667eea 0%, #a78bfa 45%, #f64f59 100%);
+    background: linear-gradient(90deg, #ff8a00 0%, #ff5e00 45%, #e52e71 100%);
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     margin: 0 0 0.6rem; line-height: 1.1;
 }
@@ -62,8 +62,8 @@ hr { border-color: rgba(255,255,255,0.07) !important; margin: 1.2rem 0 !importan
     font-size: 1rem !important;
 }
 .stTextInput > div > div > input:focus {
-    border-color: #667eea !important;
-    box-shadow: 0 0 0 3px rgba(102,126,234,0.2) !important;
+    border-color: #ff8a00 !important;
+    box-shadow: 0 0 0 3px rgba(255, 138, 0, 0.2) !important;
 }
 
 /* Selectbox */
@@ -75,7 +75,7 @@ hr { border-color: rgba(255,255,255,0.07) !important; margin: 1.2rem 0 !importan
 
 /* Generate button */
 .stButton > button {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    background: linear-gradient(135deg, #ff8a00 0%, #e52e71 100%) !important;
     color: #fff !important; border: none !important;
     border-radius: 14px !important; padding: 0.85rem 2rem !important;
     font-size: 1.05rem !important; font-weight: 700 !important;
@@ -84,7 +84,7 @@ hr { border-color: rgba(255,255,255,0.07) !important; margin: 1.2rem 0 !importan
 }
 .stButton > button:hover {
     transform: translateY(-2px) !important;
-    box-shadow: 0 10px 28px rgba(102,126,234,0.45) !important;
+    box-shadow: 0 10px 28px rgba(255, 138, 0, 0.45) !important;
 }
 
 /* Download button */
@@ -123,13 +123,13 @@ hr { border-color: rgba(255,255,255,0.07) !important; margin: 1.2rem 0 !importan
 
 /* Result box */
 .result-box {
-    background: rgba(102,126,234,0.08);
-    border: 1px solid rgba(102,126,234,0.25);
+    background: rgba(255, 138, 0, 0.08);
+    border: 1px solid rgba(255, 138, 0, 0.25);
     border-radius: 14px; padding: 1rem 1.3rem;
     margin: 1rem 0; text-align: center;
-    color: #a0b4d8; font-size: 0.92rem;
+    color: #ffd5b5; font-size: 0.92rem;
 }
-.result-box strong { color: #e0e8ff; }
+.result-box strong { color: #fff1e6; }
 .footer { text-align: center; color: #3a4460; font-size: 0.82rem; padding: 1.5rem 0 0.5rem; }
 </style>
 """, unsafe_allow_html=True)
